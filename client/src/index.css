@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* > *{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #dcdce6;
+    background-size: cover;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('./assets/Background-mobile.jpg');
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        background-image: url('./assets/shortwave_brewing_background.png');
+   }
+}

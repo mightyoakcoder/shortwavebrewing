@@ -1,0 +1,28 @@
+{
+  "name": "shortwavebrewing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel client server",
+    "client": "npm --prefix ./client start",
+    "server": "npm --prefix ./server start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightyOakCoder/shortwavebrewing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MightyOakCoder/shortwavebrewing/issues"
+  },
+  "homepage": "https://github.com/MightyOakCoder/shortwavebrewing#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
