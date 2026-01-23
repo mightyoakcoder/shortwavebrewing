@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bff7e811.css",
+    "main.js": "/static/js/main.fabb1e23.js",
+    "static/media/shortwave_brewing_background.png": "/static/media/shortwave_brewing_background.06f0261ca2d8bda76256.png",
+    "static/media/Background-mobile.jpg": "/static/media/Background-mobile.7cc087f37e6db7d2048c.jpg",
+    "static/media/profile.png": "/static/media/profile.0d14c6999b4a5c8e86a7.png",
+    "index.html": "/index.html",
+    "main.bff7e811.css.map": "/static/css/main.bff7e811.css.map",
+    "main.fabb1e23.js.map": "/static/js/main.fabb1e23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bff7e811.css",
+    "static/js/main.fabb1e23.js"
+  ]
+}

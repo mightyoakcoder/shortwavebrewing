@@ -252,3 +252,11 @@ export async function resetPassword(req, res) {
     return res.status(401).send({ error: "Unauthorized" });
   }
 }
+
+/** GET http://localhost:8080/api/about */
+export async function about(req, res) {
+  res.status(200).json({
+    message: 'Welcome to the About Page!',
+    description: 'This is the about section of our application.',
+  })
+}
